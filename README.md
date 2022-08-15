@@ -1,4 +1,4 @@
-# Basic rectangle coordinate calculator
+# TODO List Api
 This is a basic and simple API project where you can list, view, create, update and delete
 TODO list elements.
 
