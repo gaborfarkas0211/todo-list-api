@@ -10,8 +10,8 @@ TODO list elements.
 
 - Create .env file, you can copy data from .env.example
 - Fill database connections and if you not using it on localhost, change the base url as well
-- Run `php artisan key:generate` command to fill app key
 - Run the `composer build` script to install and set everything automatically
+- Run `php artisan key:generate` command to fill app key
 
 ## Author
 * Gábor Farkas
