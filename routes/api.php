@@ -14,9 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::prefix('items')->controller(ItemsController::class)->group(function () {
-//    Route::get('', 'index');
-//    Route::get('{item}', 'view');
-//    Route::post('store', 'store');
-//});
 Route::resource('items', ItemsController::class)->except(['create', 'edit']);

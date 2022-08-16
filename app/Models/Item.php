@@ -50,11 +50,4 @@ class Item extends Model
                 fn($query) => $query->where('completed', $filters['completed'])
             );
     }
-
-    public static function get(Item $item): Item|null
-    {
-        return self::query()
-            ->where('id', $item->id)
-            ->first();
-    }
 }

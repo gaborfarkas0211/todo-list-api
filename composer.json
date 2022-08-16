@@ -54,7 +54,7 @@
             "@php artisan key:generate --ansi"
         ],
         "build": [
-            "composer install --no-ansi --no-dev --no-interaction --no-suggest --optimize-autoloader",
+            "composer install --no-ansi --no-interaction --no-suggest --optimize-autoloader",
             "@php artisan key:generate",
             "@php artisan migrate --force",
             "@php artisan db:seed --force",

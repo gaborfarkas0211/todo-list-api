@@ -432,24 +432,12 @@
                         </div>
                     </div>
                 </div>
-{{--                <div class="p-6">--}}
-{{--                    <div class="flex items-center">--}}
-{{--                        <div class="ml-4 text-lg leading-7 font-semibold">--}}
-{{--                            <a class="text-gray-900 dark:text-white" href="">Documentation</a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="ml-4">--}}
-{{--                        <div class="mt-1 text-gray-600 dark:text-gray-400 text-sm">--}}
-{{--                            On this link, you can test the API resources by Swagger Open Api documentation.--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
             </div>
         </div>
         <div class="flex justify-center mt-4 sm:items-right ">
             <div class="text-center text-sm text-gray-500">
                 <p class="ml-1">
-                    Created by Farkas Gábor
+                    Created by Gábor Farkas
                 </p>
             </div>
         </div>

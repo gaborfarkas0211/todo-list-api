@@ -21,11 +21,7 @@ class ItemsController extends Controller
 
     public function show(Item $item): JsonResponse
     {
-        if ($item = Item::get($item)) {
-            return $this->sendSuccess($item);
-        }
-
-        return $this->sendError();
+        return $this->sendSuccess($item);
     }
 
     public function store(CreateItemRequest $request): JsonResponse

@@ -1,17 +1,22 @@
 # TODO List Api
-This is a basic and simple API project where you can list, view, create, update and delete
-TODO list elements.
+This is a basic and simple API project where you can list, view, create, update and delete TODO list elements.
 
 ## Requirements
 
 - PHP v8.1
+- Composer
 
 ## Installation
 
-- Create .env file, you can copy data from .env.example
-- Fill database connections and if you not using it on localhost, change the base url as well
-- Run the `composer build` script to install and set everything automatically
-- Run `php artisan key:generate` command to fill app key
+- Create .env file - you can copy data from .env.example
+- Check and fill database connections in .env file and if you not using it on localhost, change the base url as well
+- Run the `composer build` command in the command line to install and set everything automatically
+
+## Usage
+Open the main page - on localhost without any virtual host is like in .env APP_URL variable - where you can navigate to the api docs page. Here you can immediately test the endpoints with the Try it buttons.   
+
+## Tests
+You can run unit tests with `php artisan test` command in the command line.
 
 ## Author
 * Gábor Farkas
